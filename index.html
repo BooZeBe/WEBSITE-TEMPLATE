@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Мобилки -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Название -->
+    <title>EXAMPLE</title>
+
+    <!-- Иконка сайта -->
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <!-- Slick SLider -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrap">
+        <div class="header-left">
+          <a href="#"><div class="header-logo logo"></div></a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Documentation</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="menu">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </button>
+        </div>
+        <div class="header-right">
+          <div class="social header-social">
+            <object type="image/svg+xml" data="iconsprite/facebook.svg" class="social-icon">
+            </object>
+            <object type="image/svg+xml" data="iconsprite/Telegram.svg" class="social-icon">
+            </object>
+            <object type="image/svg+xml" data="iconsprite/twitter.svg" class="social-icon">
+            </object>
+            <object type="image/svg+xml" data="iconsprite/Medium_icon.svg" class="social-icon">
+            </object>
+          </div>
+          <a href="" class="btn header-btn">Get started</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="baner">
+          <div class="slider">
+            <div class="slider-item baner-item">
+              <div class="baner-desc">
+                <h3 class="subtitle baner-subtitle">PLAN YOUR LIFE</h3>
+                <h2 class="title baner-title">Increase your <span>productivity</span></h2>
+                <p class="text baner-text">
+                  Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. 
+                  Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus 
+                  congue vituperata.
+                </p>
+                <button class="baner-play" onclick="FirstPlusSlides(1)">
+                  <div class="play-triangle"></div>
+                </button>
+              </div>
+            </div>
+            <div class="slider-item baner-item">
+              <div class="baner-desc">
+                <h3 class="subtitle baner-subtitle">PLAN YOUR LIFE</h3>
+                <h2 class="title baner-title">Increase your <span>productivity</span></h2>
+                <p class="text baner-text">
+                  Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. 
+                  Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus 
+                  congue vituperata.
+                </p>
+                <button class="baner-play" onclick="FirstPlusSlides(1)">
+                  <div class="play-triangle"></div>
+                </button>
+              </div>
+            </div>
+            <div class="slider-item baner-item">
+              <div class="baner-desc">
+                <h3 class="subtitle baner-subtitle">PLAN YOUR LIFE</h3>
+                <h2 class="title baner-title">Increase your <span>productivity</span></h2>
+                <p class="text baner-text">
+                  Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. 
+                  Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus 
+                  congue vituperata.
+                </p>
+                <button class="baner-play" onclick="FirstPlusSlides(1)">
+                  <div class="play-triangle"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="slider-dots baner-dots">
+            <span class="dot baner-dot" onclick="FirstCurrentSlide(1)"></span>
+            <span class="dot baner-dot" onclick="FirstCurrentSlide(2)"></span>
+            <span class="dot baner-dot" onclick="FirstCurrentSlide(3)"></span>
+          </div>
+      </section>
+
+      <section class="sponsors">
+        <div class="wrap">
+          <div class="sponsor">
+            <object type="image/svg+xml" data="iconsprite/bucket.svg" class="social-icon">
+            </object>
+          </div>
+          <div class="sponsor">
+            <object type="image/svg+xml" data="iconsprite/watch.svg" class="social-icon">
+            </object>
+          </div>
+          <div class="sponsor">
+            <object type="image/svg+xml" data="iconsprite/Fullname-facebook.svg" class="social-icon">
+            </object>
+          </div>
+          <div class="sponsor">
+            <object type="image/svg+xml" data="iconsprite/atlassian.svg" class="social-icon">
+            </object>
+          </div>
+          <div class="sponsor">
+            <object type="image/svg+xml" data="iconsprite/audi.svg" class="social-icon">
+            </object>
+          </div>
+        </div>
+      </section>
+
+      <section class="responsive">
+        <div class="wrap">
+          <div class="responsive-desc">
+            <h3 class="subtitle responsive-subtitle">DESKTOP AND MOBILE APP</h3>
+            <h2 class="title responsive-title">
+              <span>Plan</span> and <span>manage</span>
+            </h2>
+            <p class="text responsive-text">
+              Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. 
+              Usu atqui laudem an, insolens gubergren similique est cu. Et vel 
+              modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis 
+              oporteat. Eum an expetenda consequat.
+            </p>
+            <div class="responsive-btns double-btns">
+              <a href="" class="btn--double responsive-btn btn">
+                View video
+                <span class="play-triangle"></span>
+              </a>
+              <a href="" class="btn--double responsive-btn btn">See features</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="wrap">
+          <div class="about-heading">
+            <h3 class="subtitle subtitle--center">ABOUT US</h3>
+            <h2 class="title title--center">
+              <span>Read about our app</span>
+            </h2>
+          </div>
+          <div class="cards about-cards">
+            <div class="about-card card">
+              <img src="img/overview.png" alt="" class="card-image">
+              <h2 class="card-title">Overview</h2>
+              <p class="card-text">
+                Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
+              </p>
+            </div>
+            <div class="card-line"></div>          
+            <div class="about-card card">
+              <img src="img/files.png" alt="" class="card-image">
+              <h2 class="card-title">Files</h2>
+              <p class="card-text">
+                No vim nulla vitae intellegat. Ei enim error ius, 
+                solet atomorum conceptam ex has.
+              </p>
+            </div>
+            <div class="card-line"></div>          
+            <div class="about-card card">
+              <img src="img/chats.png" alt="" class="card-image">
+              <h2 class="card-title">Meeting chats</h2>
+              <p class="card-text">
+                Vim ne tacimates neglegentur. Erat diceret omittam at est.
+              </p>
+            </div>
+
+            <div class="card-line"></div>        
+            <div class="about-card card">
+              <img src="img/save_events.png" alt="" class="card-image">
+              <h2 class="card-title">Save events</h2>
+              <p class="card-text">
+                Nisl idque mel ea, nominati voluptatum.
+              </p>
+            </div>
+          </div>
+          <div class="about-btns">
+            <a href="" class="btn btn--orange about-btn">Read more</a>
+            <div class="btns-line"></div>
+            <span class="or">OR</span>
+            <div class="btns-line"></div>
+            <a href="" class="btn about-btn">Get started</a>
+          </div>
+        </div>
+      </section>
+      
+      <section class="statistic">
+        <div class="statistic-numbers statistic-numbers__customers">
+          <div class="statistic-desc">
+            <img src="img/speed.png" alt="" class="statistic-image">
+            <h2 class="statistic-number">89%</h2>
+            <p class="statistic-text">
+              Customers who have increased their productivity
+            </p>
+          </div>
+        </div>
+        <div class="statistic-numbers statistic-numbers__users">
+          <div class="statistic-desc">
+            <img src="img/people.png" alt="" class="statistic-image">
+            <h2 class="statistic-number">3228</h2>
+            <p class="statistic-text">
+              Users who have used our application
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="wrap">
+          <div class="blog-heading">
+            <h3 class="subtitle subtitle--center">OUR RESOURCES</h3>
+            <h2 class="title title--center">
+              <span>Start reading our blog</span> 
+            </h2>
+          </div>
+          <div class="slider">
+            <div class="slider-item blog-item">
+              <div class="item-content">
+                <div class="blog-images">
+                  <img src="img/blog-notebook.png" alt="" class="blog-img">
+                  <img src="img/blog-coffee.png" alt="" class="blog-img">
+                  <img src="img/blog-man.png" alt="" class="blog-img">
+                </div>
+                <div class="blog-desc">
+                  <h2 class="blog-title">How to start planning</h2>
+                  <p class="blog-text text">
+                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                    Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. 
+                    Natum petentium principes mei ea. Tota everti periculis vis ei, 
+                    quas tibique pro at, eos ut decore ...
+                  </p>
+                  <div class="blog-btns">
+                    <a href="#" class="btn">Read now</a>
+                    <a href="#" class="btn blog-btn">Add to your bookmarks</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-item blog-item">
+              <div class="item-content">
+                <div class="blog-images">
+                  <img src="img/blog-coffee.png" alt="" class="blog-img">
+                  <img src="img/blog-notebook.png" alt="" class="blog-img">
+                  <img src="img/blog-man.png" alt="" class="blog-img">
+                </div>
+                <div class="blog-desc">
+                  <h2 class="blog-title">How to start planning</h2>
+                  <p class="blog-text text">
+                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                    Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. 
+                    Natum petentium principes mei ea. Tota everti periculis vis ei, 
+                    quas tibique pro at, eos ut decore ...
+                  </p>
+                  <div class="blog-btns">
+                    <a href="#" class="btn">Read now</a>
+                    <a href="#" class="btn blog-btn">Add to your bookmarks</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-item blog-item">
+              <div class="item-content">
+                <div class="blog-images">
+                  <img src="img/blog-coffee.png" alt="" class="blog-img">
+                  <img src="img/blog-notebook.png" alt="" class="blog-img">
+                  <img src="img/blog-man.png" alt="" class="blog-img">
+                </div>
+                <div class="blog-desc">
+                  <h2 class="blog-title">How to start planning</h2>
+                  <p class="blog-text text">
+                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                    Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. 
+                    Natum petentium principes mei ea. Tota everti periculis vis ei, 
+                    quas tibique pro at, eos ut decore ...
+                  </p>
+                  <div class="blog-btns">
+                    <a href="#" class="btn">Read now</a>
+                    <a href="#" class="btn blog-btn">Add to your bookmarks</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a class="prev" onclick="SecondPlusSlides(-1)"> 
+              <img src="img/arrow_left.png" alt="">
+            </a>
+            <a class="next" onclick="SecondPlusSlides(1)">
+              <img src="img/arrow_right.png" alt="">
+            </a>
+          </div>
+          <div class="slider-dots blog-dots">
+            <span class="dot blog-dot" onclick="SecondCurrentSlide(1)"></span>
+            <span class="dot blog-dot" onclick="SecondCurrentSlide(2)"></span>
+            <span class="dot blog-dot" onclick="SecondCurrentSlide(3)"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="wrap">
+          <div class="testimonials-desc">
+            <h4 class="subtitle testimonials-subtitle">TESTIMONIALS</h4>
+            <h2 class="title testimonials-title">
+              <span>Customers's quotes</span>
+            </h2>
+            <p class="testimonials-text">
+              Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an.
+            </p>
+          </div>
+          <div class=" testimonials-slider">
+            <div class=" testimonials-item">
+              <div class="item-content">
+                <p class="text item-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <img src="img/man.png" alt="" class="item-image">
+              </div>
+            </div>
+            <div class=" testimonials-item">
+              <div class="item-content">
+                <p class="text item-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <img src="img/man.png" alt="" class="item-image">
+              </div>
+            </div>
+            <div class=" testimonials-item">
+              <div class="item-content">
+                <p class="text item-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <img src="img/man.png" alt="" class="item-image">
+              </div>
+            </div>
+            <div class=" testimonials-item">
+              <div class="item-content">
+                <p class="text item-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <img src="img/man.png" alt="" class="item-image">
+              </div>
+            </div>
+            <div class=" testimonials-item">
+              <div class="item-content">
+                <p class="text item-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <img src="img/man.png" alt="" class="item-image">
+              </div>
+            </div>
+            <div class=" testimonials-item">
+              <div class="item-content">
+                <p class="text item-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <img src="img/man.png" alt="" class="item-image">
+              </div>
+            </div>
+            <div class=" testimonials-item">
+              <div class="item-content">
+                <p class="text item-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <img src="img/man.png" alt="" class="item-image">
+              </div>
+            </div>
+            <div class=" testimonials-item">
+              <div class="item-content">
+                <p class="text item-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <img src="img/man.png" alt="" class="item-image">
+              </div>
+            </div>
+            <div class=" testimonials-item">
+              <div class="item-content">
+                <p class="text item-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. 
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <img src="img/man.png" alt="" class="item-image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="wrap">
+          <div class="faq-heading">
+            <h3 class="subtitle subtitle--center">Customer help</h3>
+            <h2 class="title title--center">
+              <span>Frequently asked questions</span>
+            </h2>
+          </div>
+          <div class="faq-accordion">
+            <button class="accordion">Reque insolens in vel?</button>
+            <div class="panel">
+              <div class="panel-desc">
+                <p class="panel-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, 
+                  vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <a href="" class="btn panel-btn">Go to documentation</a>
+              </div>
+            </div>
+
+            <button class="accordion">Vis rebum error graecis ea, id sit postea accusamus?</button>
+            <div class="panel">
+              <div class="panel-desc">
+                <p class="panel-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, 
+                  vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <a href="" class="btn panel-btn">Go to documentation</a>
+              </div>
+            </div>
+
+            <button class="accordion">Lorem repudiandae ne nec?</button>
+            <div class="panel">
+              <div class="panel-desc">
+                <p class="panel-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, 
+                  vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <a href="" class="btn panel-btn">Go to documentation</a>
+              </div>
+            </div>
+
+            <button class="accordion">Ad dicit numquam vel. Et eos iudico feugait percipitur?</button>
+            <div class="panel">
+              <div class="panel-desc">
+                <p class="panel-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, 
+                  vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <a href="" class="btn panel-btn">Go to documentation</a>
+              </div>
+            </div>
+
+            <button class="accordion">Sea no dico percipitur. Fierent constituam definitiones id eum?</button>
+            <div class="panel">
+              <div class="panel-desc">
+                <p class="panel-text">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, 
+                  vero tractatos ius an, in mel diceret persecuti.
+                </p>
+                <a href="" class="btn panel-btn">Go to documentation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="start">
+        <div class="wrap">
+          <div class="start-desc">
+            <h3 class="subtitle subtitle--center start-subtitle">PLAN YOUR LIFE</h3>
+            <h2 class="title title--center start-title">
+              Get <span>started</span> now
+            </h2>
+            <p class="text start-text">
+              Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, 
+              insolens gubergren similique est cu. Et vel modus congue vituperata.
+            </p>
+            <div class="start-btns double-btns">
+              <a href="" class="btn--double start-btn btn">View pricing</a>
+              <a href="" class="btn--double start-btn btn">Read documentation</a>
+            </div>
+        </div>
+      </section>
+
+      <section class="news">
+        <div class="wrap">
+          <form action="#" class="news-form form">
+            <div class="form-desc">
+              <h2 class="form-title">Sign up for newsletter</h2>
+              <p class="form-text">
+                Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.
+              </p>
+            </div>
+
+            <div class="form-inputs">
+              <input type="text" placeholder="Email address" name="email" class="form-email" required>
+
+              <input type="submit" value="Save me" name="submit" class="form-submit">
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer-navbar">
+          <div class="footer-left">
+            <a href="#"><div class="footer-logo logo"></div></a>
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Documentation</a>
+                </li>
+              </ul>
+              
+            </nav>
+            <button class="menu">
+              <span class="menu-line"></span>
+              <span class="menu-line"></span>
+              <span class="menu-line"></span>
+            </button>
+          </div>
+          <div class="footer-right">
+            <div class="social footer-social">
+              <object type="image/svg+xml" data="iconsprite/facebook.svg" class="social-icon">
+              </object>
+              <object type="image/svg+xml" data="iconsprite/Telegram.svg" class="social-icon">
+              </object>
+              <object type="image/svg+xml" data="iconsprite/twitter.svg" class="social-icon">
+              </object>
+              <object type="image/svg+xml" data="iconsprite/Medium_icon.svg" class="social-icon">
+              </object>
+            </div>
+            <a href="" class="btn footer-btn">Get started</a>
+          </div>
+        </div>
+        <p class="footer-copy">
+          Copyright © 2018 by Random site
+        </p>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.5.1.js"></script>
+
+    <!-- Slick SLider -->
+    <script src="js/slick.min.js"></script>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
